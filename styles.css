@@ -41,15 +41,66 @@ body{
     background-color: rgb(23, 124, 229);
     bottom: -6px;
     left: 50%;
-    transform: transla  teX(-50%);
+    transform: translateX(-50%);
 }
 
 .quote-box blockquote{
-    font-size: 26px;
+    font-size: 27px;
     min-height: 110px;
 }
 
 .quote-box blockquote::before,.quote-box blockquote::after{
     content: '"';
+}
+
+.quote-box span{
+    display: block;
+    margin: top 10px;
+    float:right;
+    position:relative;
+}
+
+.quote-box span::before{
+    content: '';
+    width: 20px;
+    height:2px;
+    background-color: rgb(23, 124, 229);
+    position:absolute;
+    top:50%;
+    left:-30px;
+}
+
+.quote-box div{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.quote-box button{
+    background-color: rgb(23, 124, 229);
+    font-size: 16px;
+    color:#fff;
+    border-radius: 25px;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin:6px;
+    border: 1px solid rgb(23, 124, 229);
+    cursor:pointer;
+}
+
+.quote-box button img{
+    width: 20px;
+    margin-right: 10px;
+
+}
+
+.quote-box button:nth-child(2){
+    background: transparent; 
+    color: #333;
+    align-items: center;
 }
 
