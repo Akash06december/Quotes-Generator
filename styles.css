@@ -41,7 +41,7 @@ body{
     background-color: rgb(23, 124, 229);
     bottom: -6px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: transla  teX(-50%);
 }
 
 .quote-box blockquote{
