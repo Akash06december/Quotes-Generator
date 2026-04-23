@@ -9,8 +9,6 @@ async function getquote(url) {
     console.log(data)
     quote.innerHTML = data.quote;
     author.innerHTML = data.author;
-
-    
 }
 
 function tweet(){
